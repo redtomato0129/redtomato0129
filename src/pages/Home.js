@@ -13,11 +13,6 @@ const Home = () => {
         </div>
         <div className={styles.row}>
           <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import styles from "styles/Card.module.scss";
 import { Link } from "react-router-dom";
-import GetIcon from "./GetIcon";
-import Title from "./Title";
+import GetIcon from "components/GetIcon";
+import Title from "components/Title";
 
 const Card = () => {
   return (

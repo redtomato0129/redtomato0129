@@ -2,6 +2,7 @@ import styles from "styles/App.module.scss";
 import Header from "components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "pages/Home";
+import BasketSidebar from "components/BasketSidebar";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         </main>
         <footer>footer</footer>
       </div>
+
+      <BasketSidebar />
     </Router>
   );
 };

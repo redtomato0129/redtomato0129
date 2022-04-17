@@ -1,0 +1,106 @@
+@import "styles/_variables.scss";
+
+.sidebarContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($color: $black, $alpha: 0.75);
+  z-index: 1;
+
+  .sidebar {
+    width: 400px;
+    height: 100%;
+    background-color: $white;
+    margin-left: auto;
+
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+
+      .close {
+        margin-left: auto;
+        background-color: $red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        border-radius: $border-radius;
+        cursor: pointer;
+      }
+    }
+
+    .items {
+      background: red;
+      display: flex;
+      flex-direction: column;
+
+      .item {
+        display: flex;
+        padding: 1rem;
+
+        .img {
+          width: 75px;
+          height: 75px;
+          background-color: blue;
+          border-radius: $border-radius;
+        }
+
+        .detail {
+          background: white;
+          flex: 1;
+
+          .title {
+            border: 1px solid red;
+          }
+
+          .priceContainer {
+            border: 1px solid green;
+            display: flex;
+
+            > small {
+              font-weight: 500;
+              padding: 5px 0;
+
+              &:first-of-type {
+                &::after {
+                  content: "X";
+                  margin-left: 5px;
+                  margin-right: 5px;
+                }
+              }
+
+              &:last-of-type {
+                margin-left: auto;
+                font-weight: 600;
+
+                &::before {
+                  content: "=";
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+
+          .quantity {
+            border: 1px solid black;
+            padding: 5px 0;
+
+            & > input::-webkit-outer-spin-button,
+            & > input::-webkit-inner-spin-button {
+              /* display: none; <- Crashes Chrome on hover */
+              -webkit-appearance: none;
+              margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+            }
+
+            & > input[type="number"] {
+              -moz-appearance: textfield; /* Firefox */
+            }
+          }
+        }
+      }
+    }
+  }
+}

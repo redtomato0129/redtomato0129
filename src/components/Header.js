@@ -33,7 +33,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/" className={clsx(styles.basketBtn, styles.a)}>
-                <GetIcon icon="BsBasket" size={22} color="#ffffff" />
+                <GetIcon icon="BsCart4" size={25} color="#ffffff" />
                 <span className={styles.basketLength}>1</span>
               </Link>
             </li>
