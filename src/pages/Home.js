@@ -1,18 +1,29 @@
 import styles from "styles/Home.module.scss";
 import Card from "components/Card";
 import Title from "components/Title";
+import useMakeRequest from "hooks/useMakeRequest";
 
 const Home = () => {
+  const result = useMakeRequest("https://fakestoreapi.com/products/");
+
   return (
     <section className={styles.home}>
       <div className={styles.container}>
         <div className={styles.row}>
-          <div className={styles.title}>
-            <Title txt="all products" color="#171717" size={22} transform="uppercase" />
-          </div>
+          {result.data && (
+            <div className={styles.title}>
+              <Title txt="all products" color="#171717" size={22} transform="uppercase" />
+            </div>
+          )}
         </div>
         <div className={styles.row}>
-          <Card />
+          {result.data ? (
+            result.data.map((product, key) => <Card product={product} key={key} />)
+          ) : (
+            <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+              <Title txt={result.error} size={25} transform="uppercase" />
+            </div>
+          )}
         </div>
       </div>
     </section>

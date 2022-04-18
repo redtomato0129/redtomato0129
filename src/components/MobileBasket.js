@@ -7,6 +7,9 @@ const MobileBasket = () => {
       {[...new Array(10)].map((item, key) => (
         <BasketItem key={key} />
       ))}
+      <button type="button" className={styles.confirmBtn}>
+        Confirm the basket
+      </button>
     </div>
   );
 };

@@ -11,8 +11,8 @@
 
   .content {
     overflow: hidden;
-    height: calc(100% - 75px);
-    overflow-y: scroll;
+    height: 100%;
+    overflow-y: auto;
   }
 
   .navContainer {

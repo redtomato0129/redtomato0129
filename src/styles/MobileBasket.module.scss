@@ -3,4 +3,21 @@
 .mobileBasket {
   height: calc(100% - 75px);
   overflow-y: scroll;
+
+  .confirmBtn {
+    width: calc(100% - 20px);
+    height: 50px;
+    margin: 10px;
+    background-color: #019267;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-family: inherit;
+    font-size: 1.15rem;
+    padding: 5px 10px;
+    font-weight: 500;
+    border-radius: $border-radius;
+    cursor: pointer;
+  }
 }

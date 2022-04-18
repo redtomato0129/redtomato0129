@@ -6,8 +6,11 @@ import BasketSidebar from "components/BasketSidebar";
 import Footer from "components/Footer";
 import Detail from "pages/Detail";
 import MobileBottomNav from "components/MobileBottomNav";
+import useMobileDetect from "hooks/useMobileDetect";
 
 const App = () => {
+  const device = useMobileDetect();
+
   return (
     <Router>
       <div className={styles.container}>
@@ -25,7 +28,7 @@ const App = () => {
         <Footer />
       </div>
       <BasketSidebar />
-      <MobileBottomNav />
+      {device.type === "mobile" && <MobileBottomNav />}
     </Router>
   );
 };

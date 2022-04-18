@@ -2,20 +2,20 @@ import styles from "styles/Card.module.scss";
 import { Link } from "react-router-dom";
 import GetIcon from "components/GetIcon";
 
-const Card = () => {
+const Card = ({ product }) => {
   return (
     <div className={styles.card}>
-      <Link to="/" className={styles.content}>
+      <Link to={`/${product.id}`} className={styles.content}>
         <div className={styles.img}>
-          <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="" />
+          <img src={product.image} alt="" />
         </div>
         <div className={styles.info}>
           <div className={styles.title}>
-            <h3>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h3>
+            <h3>{product.title}</h3>
           </div>
           <div className={styles.footer}>
             <div className={styles.price}>
-              125425 <small>TRY</small>
+              {product.price} <small>TRY</small>
             </div>
             <button className={styles.addToBasket}>
               <GetIcon icon="BsFillCartPlusFill" size={18} /> add to basket
