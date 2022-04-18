@@ -8,7 +8,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <h2>react store</h2>
+        <Link to={"/"}>
+          <h2>react store</h2>
+        </Link>
       </div>
       <div className={styles.navContainer}>
         <nav className={styles.nav}>

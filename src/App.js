@@ -3,6 +3,8 @@ import Header from "components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "pages/Home";
 import BasketSidebar from "components/BasketSidebar";
+import Footer from "components/Footer";
+import Detail from "pages/Detail";
 
 const App = () => {
   return (
@@ -14,9 +16,12 @@ const App = () => {
             <Route path="/" exact>
               <Home />
             </Route>
+            <Route path="/product" exact>
+              <Detail />
+            </Route>
           </Switch>
         </main>
-        <footer>footer</footer>
+        <Footer />
       </div>
 
       <BasketSidebar />

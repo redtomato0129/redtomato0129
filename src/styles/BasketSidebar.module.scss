@@ -14,6 +14,7 @@
     height: 100%;
     background-color: $white;
     margin-left: auto;
+    position: relative;
 
     .header {
       display: flex;
@@ -33,35 +34,31 @@
     }
 
     .items {
-      background: red;
       display: flex;
       flex-direction: column;
+      overflow-y: scroll;
+      max-height: 70%;
 
       .item {
+        border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.15);
         display: flex;
         padding: 1rem;
 
         .img {
-          width: 75px;
-          height: 75px;
-          background-color: blue;
+          width: 100px;
+          height: 100px;
           border-radius: $border-radius;
         }
 
         .detail {
-          background: white;
           flex: 1;
 
-          .title {
-            border: 1px solid red;
-          }
-
           .priceContainer {
-            border: 1px solid green;
             display: flex;
+            margin-top: 10px;
 
             > small {
-              font-weight: 500;
+              font-weight: 600;
               padding: 5px 0;
 
               &:first-of-type {
@@ -85,22 +82,109 @@
           }
 
           .quantity {
-            border: 1px solid black;
-            padding: 5px 0;
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid rgba($color: $black, $alpha: 0.25);
+            border-radius: 20px;
+            overflow: hidden;
+
+            .quantityBtn {
+              background-color: transparent;
+              width: 25px;
+              height: 25px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+            }
+
+            & > input {
+              text-align: center;
+              outline: none;
+            }
 
             & > input::-webkit-outer-spin-button,
             & > input::-webkit-inner-spin-button {
-              /* display: none; <- Crashes Chrome on hover */
               -webkit-appearance: none;
-              margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+              margin: 0;
             }
 
             & > input[type="number"] {
-              -moz-appearance: textfield; /* Firefox */
+              -moz-appearance: textfield;
             }
           }
         }
       }
+
+      .removeItem {
+        background-color: $red;
+        color: $white;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: $border-radius;
+      }
+    }
+
+    .basketTotal {
+      position: absolute;
+      width: 100%;
+      height: 150px;
+      bottom: 0;
+      padding: 1rem;
+      border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.15);
+
+      .total {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .totalPrice {
+        margin-top: 20px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        > small {
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+
+        .price {
+          display: flex;
+          align-items: center;
+          font-weight: 700;
+          font-size: 1.25rem;
+        }
+      }
+
+      .confirmBtn {
+        width: 100%;
+        text-transform: capitalize;
+        margin-top: 10px;
+        background-color: #29bb89;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        font-family: inherit;
+        font-size: 1.15rem;
+        padding: 5px 10px;
+        font-weight: 500;
+        border-radius: $border-radius;
+        cursor: pointer;
+      }
     }
   }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

@@ -1,7 +1,6 @@
 import styles from "styles/Card.module.scss";
 import { Link } from "react-router-dom";
 import GetIcon from "components/GetIcon";
-import Title from "components/Title";
 
 const Card = () => {
   return (
@@ -16,10 +15,7 @@ const Card = () => {
           </div>
           <div className={styles.footer}>
             <div className={styles.price}>
-              <small>
-                <GetIcon icon="BsCurrencyDollar" size={17} color="#171717" />
-              </small>
-              <Title txt="125425" size={20} />
+              125425 <small>TRY</small>
             </div>
             <button className={styles.addToBasket}>
               <GetIcon icon="BsFillCartPlusFill" size={18} /> add to basket

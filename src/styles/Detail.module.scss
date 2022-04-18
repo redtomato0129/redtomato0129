@@ -1,0 +1,153 @@
+@import "styles/_variables.scss";
+
+.detail {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 768px;
+    margin-top: 1rem;
+
+    .top {
+      display: flex;
+
+      .img {
+        min-width: 300px;
+        height: 300px;
+        padding: 10px;
+        border: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+        border-radius: $border-radius;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .info {
+        padding-left: 10px;
+
+        .title {
+          color: $dark-gray;
+        }
+
+        .category {
+          margin-top: 10px;
+          font-weight: 500;
+        }
+
+        .rating {
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        .price {
+          display: flex;
+          margin-top: 10px;
+          font-weight: 500;
+          font-size: 1.45rem;
+
+          p {
+            background-color: #29bb89;
+            padding: 5px 10px;
+            border-radius: $border-radius;
+            color: $white;
+          }
+        }
+
+        .addToBasketAndQuantity {
+          display: inline-flex;
+          align-items: center;
+          margin-top: 30px;
+
+          .addToBasket {
+            padding: 0 10px;
+            flex: 1;
+            height: 37px;
+            border-radius: $border-radius;
+            text-transform: uppercase;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            transition: all 0.5s;
+            color: $white;
+            background-color: rgba($color: $red, $alpha: 0.8);
+          }
+
+          .quantity {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid rgba($color: $black, $alpha: 0.25);
+            border-radius: 20px;
+            overflow: hidden;
+            margin-right: 10px;
+
+            .quantityBtn {
+              background-color: transparent;
+              width: 25px;
+              height: 25px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+            }
+
+            & > input {
+              text-align: center;
+              outline: none;
+            }
+
+            & > input::-webkit-outer-spin-button,
+            & > input::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+
+            & > input[type="number"] {
+              -moz-appearance: textfield;
+            }
+          }
+        }
+      }
+    }
+
+    .bottom {
+      margin-top: 30px;
+
+      .desc {
+        font-size: 0.95rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .detail {
+    .content {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .detail {
+    .content {
+      .top {
+        flex-direction: column;
+
+        .info {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
