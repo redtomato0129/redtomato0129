@@ -1,8 +1,8 @@
 import styles from "styles/Header.module.scss";
 import { Link } from "react-router-dom";
-import linkBG from "images/shopBG.jpg";
 import GetIcon from "components/GetIcon";
 import clsx from "clsx";
+import CategoryItem from "./CategoryItem";
 
 const Header = () => {
   return (
@@ -25,12 +25,9 @@ const Header = () => {
                 Categories
               </Link>
               <ul className={styles.subMenu}>
-                <li>
-                  <Link to="/" className={styles.sub_a}>
-                    <img src={linkBG} alt="link background image" />
-                    <h3>electronics</h3>
-                  </Link>
-                </li>
+                <CategoryItem />
+                <CategoryItem />
+                <CategoryItem />
               </ul>
             </li>
             <li>

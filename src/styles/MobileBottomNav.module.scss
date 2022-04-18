@@ -1,0 +1,37 @@
+@import "styles/_variables.scss";
+
+.bottomNav {
+  background-color: $silver;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+
+  .content {
+    overflow: hidden;
+    height: calc(100% - 75px);
+    overflow-y: scroll;
+  }
+
+  .navContainer {
+    padding: 1rem;
+    border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navItem {
+      color: $white;
+      background-color: $red;
+      padding: 10px;
+      border-radius: $border-radius;
+      cursor: pointer;
+    }
+  }
+}

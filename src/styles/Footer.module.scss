@@ -1,8 +1,11 @@
 @import "styles/_variables.scss";
 
 .footer {
-  padding: 1rem;
+  padding: 0 1rem;
   background-color: $silver;
+  height: 75px;
+  display: flex;
+  align-items: center;
 
   p {
     display: flex;

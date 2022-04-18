@@ -1,0 +1,89 @@
+@import "styles/_variables.scss";
+
+.item {
+  border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.15);
+  display: flex;
+  padding: 1rem;
+
+  .img {
+    width: 100px;
+    height: 100px;
+    border-radius: $border-radius;
+  }
+
+  .detail {
+    flex: 1;
+
+    .priceContainer {
+      display: flex;
+      margin-top: 10px;
+
+      > small {
+        font-weight: 600;
+        padding: 5px 0;
+
+        &:first-of-type {
+          &::after {
+            content: "X";
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+        }
+
+        &:last-of-type {
+          margin-left: auto;
+          font-weight: 600;
+
+          &::before {
+            content: "=";
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+    .quantity {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba($color: $black, $alpha: 0.25);
+      border-radius: 20px;
+      overflow: hidden;
+
+      .quantityBtn {
+        background-color: transparent;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      & > input {
+        text-align: center;
+        outline: none;
+      }
+
+      & > input::-webkit-outer-spin-button,
+      & > input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      & > input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    }
+  }
+}
+
+.removeItem {
+  background-color: $red;
+  color: $white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $border-radius;
+}

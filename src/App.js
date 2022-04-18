@@ -5,6 +5,7 @@ import Home from "pages/Home";
 import BasketSidebar from "components/BasketSidebar";
 import Footer from "components/Footer";
 import Detail from "pages/Detail";
+import MobileBottomNav from "components/MobileBottomNav";
 
 const App = () => {
   return (
@@ -23,8 +24,8 @@ const App = () => {
         </main>
         <Footer />
       </div>
-
       <BasketSidebar />
+      <MobileBottomNav />
     </Router>
   );
 };

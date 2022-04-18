@@ -1,0 +1,14 @@
+@import "styles/_variables.scss";
+
+.mobileCategories {
+  padding: 1rem;
+
+  .mobileCategoriesMenu {
+    display: flex;
+    flex-direction: column;
+
+    > li {
+      width: 100%;
+    }
+  }
+}

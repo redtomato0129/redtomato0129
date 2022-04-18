@@ -2,6 +2,7 @@ import styles from "styles/BasketSidebar.module.scss";
 import GetIcon from "components/GetIcon";
 import Title from "components/Title";
 import clsx from "clsx";
+import BasketItem from "components/BasketItem";
 
 const BasketSidebar = () => {
   return (
@@ -18,31 +19,7 @@ const BasketSidebar = () => {
         </div>
         <div className={styles.items}>
           {[...new Array(10)].map((item, key) => (
-            <div className={styles.item} key={key}>
-              <div className={styles.img}>img</div>
-              <div className={styles.detail}>
-                <div className={styles.title}>
-                  <Title txt="notebook i5 intel lorem ipsum" size={16} transform="capitalize" />
-                </div>
-                <div className={styles.priceContainer}>
-                  <small className={styles.singlePrice}>14554</small>
-                  <small className={styles.quantityN}>2</small>
-                  <small className={styles.totalPrice}>54558 TRY</small>
-                </div>
-                <div className={styles.quantity}>
-                  <button type="button" className={styles.quantityBtn}>
-                    <GetIcon icon="BsDash" size={20} />
-                  </button>
-                  <input type="number" min="1" max="10" defaultValue={1} />
-                  <button type="button" className={styles.quantityBtn}>
-                    <GetIcon icon="BsPlus" size={20} />
-                  </button>
-                </div>
-              </div>
-              <div className={styles.removeItem}>
-                <GetIcon icon="BsDash" size={17} />
-              </div>
-            </div>
+            <BasketItem key={key} />
           ))}
         </div>
         <div className={styles.basketTotal}>
@@ -57,7 +34,7 @@ const BasketSidebar = () => {
             </div>
           </div>
           <button type="button" className={styles.confirmBtn}>
-            confirm the basket
+            Confirm the basket
           </button>
         </div>
       </div>

@@ -1,0 +1,6 @@
+@import "styles/_variables.scss";
+
+.mobileBasket {
+  height: calc(100% - 75px);
+  overflow-y: scroll;
+}
