@@ -3,12 +3,14 @@ import GetIcon from "components/GetIcon";
 import MobileCategories from "components/MobileCategories";
 import { useState } from "react";
 import MobileBasket from "components/MobileBasket";
+import clsx from "clsx";
 
 const MobileBottomNav = () => {
   const [currentComponent, setCurrentComponent] = useState("");
+  const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
-    <div className={styles.bottomNav}>
+    <div className={clsx(styles.bottomNav, navIsOpen ? styles.fullHeight : styles.removeHeight)}>
       <div className={styles.content}>
         {(() => {
           switch (currentComponent) {
@@ -17,18 +19,36 @@ const MobileBottomNav = () => {
             case "basket":
               return <MobileBasket />;
             default:
-              return <div>Home</div>;
+              return <div></div>;
           }
         })()}
       </div>
       <div className={styles.navContainer}>
-        <button className={styles.navItem} onClick={() => setCurrentComponent("")}>
+        <button
+          className={styles.navItem}
+          onClick={() => {
+            setCurrentComponent("");
+            setNavIsOpen(false);
+          }}
+        >
           <GetIcon icon="BsHouseFill" size={25} />
         </button>
-        <button className={styles.navItem} onClick={() => setCurrentComponent("categories")}>
+        <button
+          className={styles.navItem}
+          onClick={() => {
+            setCurrentComponent("categories");
+            setNavIsOpen((oldState) => !oldState);
+          }}
+        >
           <GetIcon icon="BsList" size={25} />
         </button>
-        <button className={styles.navItem} onClick={() => setCurrentComponent("basket")}>
+        <button
+          className={styles.navItem}
+          onClick={() => {
+            setCurrentComponent("basket");
+            setNavIsOpen((oldState) => !oldState);
+          }}
+        >
           <GetIcon icon="BsCartFill" size={25} />
         </button>
       </div>

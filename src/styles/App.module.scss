@@ -8,4 +8,8 @@
   .main {
     flex: 1;
   }
+
+  &.paddingForMobile {
+    padding-bottom: 75px;
+  }
 }

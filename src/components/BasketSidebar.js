@@ -3,17 +3,21 @@ import GetIcon from "components/GetIcon";
 import Title from "components/Title";
 import clsx from "clsx";
 import BasketItem from "components/BasketItem";
+import { BasketContext } from "context/BasketContext";
+import { useContext } from "react";
 
 const BasketSidebar = () => {
+  const { basketIsOpen, setBasketIsOpen } = useContext(BasketContext);
+
   return (
-    <div className={clsx(styles.sidebarContainer, styles.hide)}>
+    <div className={clsx(styles.sidebarContainer, basketIsOpen ? styles.show : styles.hide)}>
       <div className={styles.sidebar}>
         <div className={styles.header}>
           <div className={styles.title}>
             <Title txt="your basket" size={20} transform="uppercase" />
             <small>your basket has got 5 items</small>
           </div>
-          <button className={styles.close}>
+          <button className={styles.close} onClick={() => setBasketIsOpen(false)}>
             <GetIcon icon="BsX" size={30} />
           </button>
         </div>

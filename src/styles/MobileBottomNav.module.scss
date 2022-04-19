@@ -6,7 +6,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  height: 100%;
+  height: 75px;
   z-index: 1;
 
   .content {
@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: inherit;
 
     .navItem {
       color: $white;
@@ -34,4 +35,13 @@
       cursor: pointer;
     }
   }
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.removeHeight {
+  height: unset;
+  height: 75px;
 }
