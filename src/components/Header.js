@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 import GetIcon from "components/GetIcon";
 import clsx from "clsx";
 import CategoryItem from "./CategoryItem";
+import useMakeRequest from "hooks/useMakeRequest";
 
 const Header = () => {
+  const result = useMakeRequest("https://fakestoreapi.com/products/categories");
+
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -24,11 +27,7 @@ const Header = () => {
               <Link to="/" className={styles.a}>
                 Categories
               </Link>
-              <ul className={styles.subMenu}>
-                <CategoryItem />
-                <CategoryItem />
-                <CategoryItem />
-              </ul>
+              <ul className={styles.subMenu}>{result.data ? result.data.map((cat, index) => <CategoryItem data={cat} key={index} />) : <div>{result.error}</div>}</ul>
             </li>
             <li>
               <Link to="/" className={clsx(styles.basketBtn, styles.a)}>
