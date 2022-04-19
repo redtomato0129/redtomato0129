@@ -4,13 +4,18 @@ import Title from "components/Title";
 import clsx from "clsx";
 import BasketItem from "components/BasketItem";
 import { BasketContext } from "context/BasketContext";
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 
 const BasketSidebar = () => {
   const { basketIsOpen, setBasketIsOpen } = useContext(BasketContext);
+  const container = useRef();
 
   return (
-    <div className={clsx(styles.sidebarContainer, basketIsOpen ? styles.show : styles.hide)}>
+    <div
+      className={clsx(styles.sidebarContainer, basketIsOpen ? styles.show : styles.hide)}
+      ref={container}
+      onClick={(event) => event.target === container.current && setBasketIsOpen(false)}
+    >
       <div className={styles.sidebar}>
         <div className={styles.header}>
           <div className={styles.title}>
