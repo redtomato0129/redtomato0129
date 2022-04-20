@@ -1,14 +1,23 @@
 import styles from "styles/App.module.scss";
-import Header from "components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import clsx from "clsx";
+
+// PAGES
 import Home from "pages/Home";
+import Detail from "pages/Detail";
+import Category from "pages/Category";
+
+// COMPONENTS
+import Header from "components/Header";
 import BasketSidebar from "components/BasketSidebar";
 import Footer from "components/Footer";
-import Detail from "pages/Detail";
 import MobileBottomNav from "components/MobileBottomNav";
+
+// HOOKS
 import useMobileDetect from "hooks/useMobileDetect";
+
+// CONTEXT
 import BasketContextProvider from "context/BasketContext";
-import clsx from "clsx";
 
 const App = () => {
   const device = useMobileDetect();
@@ -25,6 +34,9 @@ const App = () => {
               </Route>
               <Route path="/product/:slug">
                 <Detail />
+              </Route>
+              <Route path="/Category/:slug">
+                <Category />
               </Route>
             </Switch>
           </main>
