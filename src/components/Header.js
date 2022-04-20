@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Link to={"/"}>
+        <Link to="/">
           <h2>react store</h2>
         </Link>
       </div>

@@ -14,8 +14,8 @@ const App = () => {
   const device = useMobileDetect();
 
   return (
-    <BasketContextProvider>
-      <Router>
+    <Router>
+      <BasketContextProvider>
         <div className={clsx(device.type === "mobile" && styles.paddingForMobile, styles.container)}>
           <Header />
           <main className={styles.main}>
@@ -23,7 +23,7 @@ const App = () => {
               <Route path="/" exact>
                 <Home />
               </Route>
-              <Route path="/product" exact>
+              <Route path="/product">
                 <Detail />
               </Route>
             </Switch>
@@ -32,8 +32,8 @@ const App = () => {
         </div>
         <BasketSidebar />
         {device.type === "mobile" && <MobileBottomNav />}
-      </Router>
-    </BasketContextProvider>
+      </BasketContextProvider>
+    </Router>
   );
 };
 
