@@ -6,28 +6,36 @@ import useMakeRequest from "hooks/useMakeRequest";
 const Home = () => {
   const result = useMakeRequest("https://fakestoreapi.com/products/");
 
-  return (
-    <section className={styles.home}>
-      <div className={styles.container}>
-        <div className={styles.row}>
-          {result.data && (
-            <div className={styles.title}>
-              <Title txt="all products" color="#171717" size={22} transform="uppercase" />
-            </div>
-          )}
-        </div>
-        <div className={styles.row}>
-          {result.data ? (
-            result.data.map((product, key) => <Card product={product} key={key} />)
-          ) : (
-            <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
-              <Title txt={result.error} size={25} transform="uppercase" />
-            </div>
-          )}
-        </div>
+  if (!result.data) {
+    return (
+      <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "30px" }}>
+        <Title txt="Loading..." size={25} transform="uppercase" />
       </div>
-    </section>
-  );
+    );
+  } else {
+    return (
+      <section className={styles.home}>
+        <div className={styles.container}>
+          <div className={styles.row}>
+            {result.data && (
+              <div className={styles.title}>
+                <Title txt="all products" color="#171717" size={22} transform="uppercase" />
+              </div>
+            )}
+          </div>
+          <div className={styles.row}>
+            {result.data ? (
+              result.data.map((product, key) => <Card product={product} key={key} />)
+            ) : (
+              <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+                <Title txt={result.error} size={25} transform="uppercase" />
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+    );
+  }
 };
 
 export default Home;

@@ -23,11 +23,6 @@ const Header = () => {
           <ul>
             <li>
               <Link to="/" className={styles.a}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className={styles.a}>
                 Categories
               </Link>
               <ul className={styles.subMenu}>{result.data ? result.data.map((cat, index) => <CategoryItem data={cat} key={index} />) : <div>{result.error}</div>}</ul>

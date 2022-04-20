@@ -14,6 +14,7 @@
 
       .img {
         min-width: 300px;
+        max-width: 300px;
         height: 300px;
         padding: 10px;
         border: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
@@ -42,7 +43,12 @@
           margin-top: 10px;
           display: flex;
           align-items: center;
-          gap: 10px;
+          justify-content: flex-end;
+
+          .stars {
+            display: flex;
+            gap: 2px;
+          }
         }
 
         .price {
@@ -52,6 +58,8 @@
           font-size: 1.45rem;
 
           p {
+            width: 100%;
+            text-align: right;
             background-color: #019267;
             padding: 5px 10px;
             border-radius: $border-radius;
@@ -62,7 +70,7 @@
         .addToBasketAndQuantity {
           display: inline-flex;
           align-items: center;
-          margin-top: 30px;
+          margin-top: 10px;
 
           .addToBasket {
             padding: 0 10px;
@@ -125,6 +133,8 @@
       .desc {
         font-size: 0.95rem;
         font-weight: 400;
+        border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+        padding-top: 10px;
       }
     }
   }

@@ -4,11 +4,9 @@ import GetIcon from "components/GetIcon";
 import slugify from "slugify";
 
 const Card = ({ product }) => {
-  // product/${slugify(product.title, { lower: true, strict: true })}-${product.id}
-
   return (
     <div className={styles.card}>
-      <Link to="/product" className={styles.content}>
+      <Link to={`product/${slugify(product.title, { lower: true, strict: true })}-${product.id}`} className={styles.content}>
         <div className={styles.img}>
           <img src={product.image} alt="" />
         </div>
