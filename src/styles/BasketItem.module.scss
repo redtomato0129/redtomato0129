@@ -9,10 +9,19 @@
     width: 100px;
     height: 100px;
     border-radius: $border-radius;
+    border: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+    padding: 5px;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
   }
 
   .detail {
     flex: 1;
+    padding-left: 10px;
 
     .priceContainer {
       display: flex;
@@ -79,13 +88,15 @@
 }
 
 .removeItem {
-  background-color: $red;
-  color: $white;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: $border-radius;
-  cursor: pointer;
+  > button {
+    background-color: $red;
+    color: $white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius;
+    cursor: pointer;
+  }
 }

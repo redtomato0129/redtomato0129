@@ -9,7 +9,7 @@ import { useContext } from "react";
 
 const Header = () => {
   const result = useMakeRequest("https://fakestoreapi.com/products/categories");
-  const { setBasketIsOpen } = useContext(BasketContext);
+  const { basketItems, setBasketIsOpen } = useContext(BasketContext);
 
   return (
     <header className={styles.header}>
@@ -22,15 +22,22 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link to="/" className={styles.a}>
+              <Link to="/" onClick={(e) => e.preventDefault()} className={styles.a}>
                 Categories
               </Link>
               <ul className={styles.subMenu}>{result.data ? result.data.map((cat, index) => <CategoryItem data={cat} key={index} />) : <div>{result.error}</div>}</ul>
             </li>
             <li>
-              <Link to="/" className={clsx(styles.basketBtn, styles.a)} onClick={() => setBasketIsOpen((oldState) => !oldState)}>
+              <Link
+                to="/"
+                className={clsx(styles.basketBtn, styles.a)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setBasketIsOpen((oldState) => !oldState);
+                }}
+              >
                 <GetIcon icon="BsCart4" size={25} color="#ffffff" />
-                <span className={styles.basketLength}>1</span>
+                {basketItems.length > 0 && <span className={styles.basketLength}> {basketItems.length} </span>}
               </Link>
             </li>
           </ul>

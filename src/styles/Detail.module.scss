@@ -11,6 +11,7 @@
 
     .top {
       display: flex;
+      width: 100%;
 
       .img {
         min-width: 300px;
@@ -29,6 +30,7 @@
 
       .info {
         padding-left: 10px;
+        width: 100%;
 
         .title {
           color: $dark-gray;
@@ -53,17 +55,15 @@
 
         .price {
           display: flex;
-          margin-top: 10px;
           font-weight: 500;
           font-size: 1.45rem;
 
           p {
             width: 100%;
             text-align: right;
-            background-color: #019267;
             padding: 5px 10px;
             border-radius: $border-radius;
-            color: $white;
+            color: $black;
           }
         }
 
@@ -153,6 +153,14 @@
     .content {
       .top {
         flex-direction: column;
+
+        .img {
+          min-width: 100%;
+        }
+
+        .addToBasketAndQuantity {
+          width: 100%;
+        }
 
         .info {
           margin-top: 10px;

@@ -7,7 +7,7 @@ import { BasketContext } from "context/BasketContext";
 import { useContext, useRef } from "react";
 
 const BasketSidebar = () => {
-  const { basketIsOpen, setBasketIsOpen } = useContext(BasketContext);
+  const { basketIsOpen, setBasketIsOpen, basketItems } = useContext(BasketContext);
   const container = useRef();
 
   return (
@@ -20,15 +20,15 @@ const BasketSidebar = () => {
         <div className={styles.header}>
           <div className={styles.title}>
             <Title txt="your basket" size={20} transform="uppercase" />
-            <small>your basket has got 5 items</small>
+            {basketItems.length > 0 ? <small>your basket has got {basketItems.length} items</small> : <small>your basket is empty...</small>}
           </div>
           <button className={styles.close} onClick={() => setBasketIsOpen(false)}>
             <GetIcon icon="BsX" size={30} />
           </button>
         </div>
         <div className={styles.items}>
-          {[...new Array(10)].map((item, key) => (
-            <BasketItem key={key} />
+          {basketItems?.map((item, key) => (
+            <BasketItem data={item} key={key} />
           ))}
         </div>
         <div className={styles.basketTotal}>
