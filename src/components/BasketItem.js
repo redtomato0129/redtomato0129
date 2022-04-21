@@ -1,6 +1,7 @@
 import styles from "styles/BasketItem.module.scss";
 import Title from "components/Title";
 import GetIcon from "components/GetIcon";
+import Quantity from "components/Quantity";
 
 const BasketItem = ({ data }) => {
   return (
@@ -17,15 +18,7 @@ const BasketItem = ({ data }) => {
           <small className={styles.quantityN}>{data.quantity}</small>
           <small className={styles.totalPrice}> {`${(data.price * data.quantity).toFixed(2)}`} TRY</small>
         </div>
-        <div className={styles.quantity}>
-          <button type="button" className={styles.quantityBtn}>
-            <GetIcon icon="BsDash" size={20} />
-          </button>
-          <input type="number" min="1" max="10" defaultValue={1} />
-          <button type="button" className={styles.quantityBtn}>
-            <GetIcon icon="BsPlus" size={20} />
-          </button>
-        </div>
+        <Quantity data={data} />
       </div>
       <div className={styles.removeItem}>
         <button type="button">

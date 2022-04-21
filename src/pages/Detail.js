@@ -1,5 +1,6 @@
 import AddToBasketBtn from "components/AddToBasketBtn";
 import GetIcon from "components/GetIcon";
+import Quantity from "components/Quantity";
 import Title from "components/Title";
 import useMakeRequest from "hooks/useMakeRequest";
 import { useParams } from "react-router-dom";
@@ -61,14 +62,8 @@ const Detail = () => {
                 </p>
               </div>
               <div className={styles.addToBasketAndQuantity}>
-                <div className={styles.quantity}>
-                  <button type="button" className={styles.quantityBtn}>
-                    <GetIcon icon="BsDash" size={20} />
-                  </button>
-                  <input type="number" min="1" max="10" defaultValue={1} />
-                  <button type="button" className={styles.quantityBtn}>
-                    <GetIcon icon="BsPlus" size={20} />
-                  </button>
+                <div className={styles.quantityBox}>
+                  <Quantity />
                 </div>
                 <AddToBasketBtn data={result.data} />
               </div>

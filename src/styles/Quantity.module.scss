@@ -1,0 +1,35 @@
+@import "styles/_variables.scss";
+
+.quantity {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba($color: $black, $alpha: 0.25);
+  border-radius: 20px;
+  overflow: hidden;
+
+  .quantityBtn {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: $dark-gray;
+  }
+
+  & > input {
+    text-align: center;
+    outline: none;
+  }
+
+  & > input::-webkit-outer-spin-button,
+  & > input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  & > input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}

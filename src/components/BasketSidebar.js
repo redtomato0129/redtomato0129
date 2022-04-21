@@ -37,7 +37,7 @@ const BasketSidebar = () => {
             <GetIcon icon="BsFillCartCheckFill" size={25} />
           </div>
           <div className={styles.totalPrice}>
-            <small>total</small>
+            <small>total try</small>
             <div className={styles.price}>
               <span>{_basketTotal.toFixed(2)}</span>
             </div>

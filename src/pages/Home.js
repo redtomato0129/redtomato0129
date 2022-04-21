@@ -7,11 +7,19 @@ const Home = () => {
   const result = useMakeRequest("https://fakestoreapi.com/products/");
 
   if (!result.data) {
-    return (
-      <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "30px" }}>
-        <Title txt="Loading..." size={25} transform="uppercase" />
-      </div>
-    );
+    if (result.error) {
+      return (
+        <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "30px" }}>
+          <Title txt={result.error} size={25} transform="uppercase" />
+        </div>
+      );
+    } else {
+      return (
+        <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "30px" }}>
+          <Title txt="Loading..." size={25} transform="uppercase" />
+        </div>
+      );
+    }
   } else {
     return (
       <section className={styles.home}>
