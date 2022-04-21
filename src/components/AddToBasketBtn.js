@@ -8,9 +8,12 @@ const AddToBasketBtn = ({ data: product }) => {
 
   const addToBasket = (product) => {
     setBasketTotal((oldTotal) => (oldTotal += product.price));
+    let arr = [...basketItems];
     let filtered = basketItems.filter((item) => item.id === product.id);
     if (filtered.length > 0) {
       filtered[0].quantity += 1;
+      arr[arr.indexOf(filtered[0])] = filtered[0];
+      setBasketItems(arr);
     } else {
       setBasketItems((oldState) => [
         ...oldState,

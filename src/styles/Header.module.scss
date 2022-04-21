@@ -4,7 +4,8 @@
   background-color: $silver;
   display: flex;
   padding: 0 1rem;
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 1;
 
   .logo {

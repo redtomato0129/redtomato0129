@@ -32,7 +32,6 @@ const MobileBottomNav = () => {
           }}
         >
           <GetIcon icon="BsHouseFill" size={20} />
-          home
         </button>
         <button
           className={styles.navItem}
@@ -42,7 +41,6 @@ const MobileBottomNav = () => {
           }}
         >
           <GetIcon icon="BsList" size={20} />
-          categories
         </button>
         <button
           className={styles.navItem}
@@ -52,7 +50,6 @@ const MobileBottomNav = () => {
           }}
         >
           <GetIcon icon="BsCartFill" size={20} />
-          basket
         </button>
       </div>
     </div>

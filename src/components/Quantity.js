@@ -1,11 +1,16 @@
 import styles from "styles/Quantity.module.scss";
 import GetIcon from "components/GetIcon";
 import { BasketContext } from "context/BasketContext";
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState, useEffect } from "react";
 
 const Quantity = ({ data }) => {
   const inp = useRef("inp");
   const { basketItems, setBasketItems, setBasketTotal } = useContext(BasketContext);
+  const [inpVal, setInpVal] = useState(1);
+
+  useEffect(() => {
+    inp.current.value = inpVal;
+  }, [inpVal]);
 
   const increase = () => {
     let arr = [...basketItems];
@@ -13,7 +18,7 @@ const Quantity = ({ data }) => {
     filtered.quantity++;
     arr[arr.indexOf(filtered)] = filtered;
     setBasketItems(arr);
-    inp.current.value++;
+    setInpVal((oldState) => (oldState += 1));
     setBasketTotal((oldTotal) => (oldTotal += data.price));
   };
 
@@ -24,7 +29,7 @@ const Quantity = ({ data }) => {
       filtered.quantity--;
       arr[arr.indexOf(filtered)] = filtered;
       setBasketItems(arr);
-      inp.current.value--;
+      setInpVal((oldState) => (oldState -= 1));
       setBasketTotal((oldTotal) => (oldTotal -= data.price));
     }
   };

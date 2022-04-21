@@ -63,7 +63,7 @@ const Detail = () => {
               </div>
               <div className={styles.addToBasketAndQuantity}>
                 <div className={styles.quantityBox}>
-                  <Quantity />
+                  <Quantity data={result.data} />
                 </div>
                 <AddToBasketBtn data={result.data} />
               </div>
