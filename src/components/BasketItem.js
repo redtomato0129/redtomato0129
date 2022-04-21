@@ -2,8 +2,21 @@ import styles from "styles/BasketItem.module.scss";
 import Title from "components/Title";
 import GetIcon from "components/GetIcon";
 import Quantity from "components/Quantity";
+import { BasketContext } from "context/BasketContext";
+import { useContext } from "react";
 
 const BasketItem = ({ data }) => {
+  const { basketItems, setBasketItems, setBasketTotal } = useContext(BasketContext);
+
+  const removeItemFromBasket = () => {
+    let arr = [...basketItems];
+    arr.splice(arr.indexOf(data), 1);
+    setBasketItems(arr);
+    setBasketTotal((total) => {
+      return total - data.price * data.quantity;
+    });
+  };
+
   return (
     <div className={styles.item}>
       <div className={styles.img}>
@@ -21,7 +34,7 @@ const BasketItem = ({ data }) => {
         <Quantity data={data} />
       </div>
       <div className={styles.removeItem}>
-        <button type="button">
+        <button type="button" onClick={removeItemFromBasket}>
           <GetIcon icon="BsDash" size={17} />
         </button>
       </div>
