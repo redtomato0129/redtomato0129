@@ -31,7 +31,8 @@ const MobileBottomNav = () => {
             setNavIsOpen(false);
           }}
         >
-          <GetIcon icon="BsHouseFill" size={25} />
+          <GetIcon icon="BsHouseFill" size={20} />
+          home
         </button>
         <button
           className={styles.navItem}
@@ -40,7 +41,8 @@ const MobileBottomNav = () => {
             setNavIsOpen((oldState) => !oldState);
           }}
         >
-          <GetIcon icon="BsList" size={25} />
+          <GetIcon icon="BsList" size={20} />
+          categories
         </button>
         <button
           className={styles.navItem}
@@ -49,7 +51,8 @@ const MobileBottomNav = () => {
             setNavIsOpen((oldState) => !oldState);
           }}
         >
-          <GetIcon icon="BsCartFill" size={25} />
+          <GetIcon icon="BsCartFill" size={20} />
+          basket
         </button>
       </div>
     </div>

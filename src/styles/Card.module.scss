@@ -60,21 +60,8 @@
           }
         }
 
-        .addToBasket {
-          flex: 1;
-          height: 37px;
-          border-radius: $border-radius;
-          text-transform: uppercase;
-          font-family: inherit;
-          font-weight: 600;
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 5px;
-          transition: all 0.5s;
-          color: $white;
-          background-color: rgba($color: $red, $alpha: 0.8);
+        .btn {
+          width: auto;
         }
       }
     }
@@ -84,14 +71,6 @@
         > img {
           transition: all 0.5s;
           transform: scale(1.05);
-        }
-      }
-      > .info {
-        > .footer {
-          > .addToBasket {
-            transition: all 0.5s;
-            background-color: $red;
-          }
         }
       }
       transition: all 0.5s;
@@ -124,10 +103,13 @@
       .footer {
         flex-direction: column;
 
-        .addToBasket {
-          min-height: 35px;
-          width: 100%;
+        .btn {
+          min-width: 100%;
           margin-top: 10px;
+
+          & > * {
+            width: 100%;
+          }
         }
       }
     }

@@ -1,23 +1,59 @@
 @import "styles/_variables.scss";
 
 .mobileBasket {
-  height: calc(100% - 75px);
+  height: calc(100% - 50px);
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  .confirmBtn {
-    width: calc(100% - 20px);
-    height: 50px;
-    margin: 10px;
-    background-color: #019267;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $white;
-    font-family: inherit;
-    font-size: 1.15rem;
-    padding: 5px 10px;
-    font-weight: 500;
-    border-radius: $border-radius;
-    cursor: pointer;
+  .basketTotal {
+    width: 100%;
+    margin-top: auto;
+    height: 150px;
+    padding: 1rem;
+    border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.15);
+
+    .total {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .totalPrice {
+      margin-top: 20px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+
+      > small {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      .price {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 1.25rem;
+      }
+    }
+
+    .confirmBtn {
+      width: 100%;
+      margin-top: 10px;
+      background-color: #019267;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      font-family: inherit;
+      font-size: 1.15rem;
+      padding: 0 10px;
+      height: 37px;
+      font-weight: 500;
+      border-radius: $border-radius;
+      cursor: pointer;
+    }
   }
 }

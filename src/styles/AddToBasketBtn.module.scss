@@ -1,0 +1,33 @@
+@import "styles/_variables.scss";
+
+.addToBasket {
+  flex: 1;
+  padding: 0 10px;
+  height: 37px;
+  border-radius: $border-radius;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.5s;
+  color: $white;
+  background-color: rgba($color: $red, $alpha: 0.8);
+}
+
+@media (max-width: 768px) {
+  .card {
+    .content {
+      .footer {
+        .addToBasket {
+          min-height: 40px;
+          width: 100%;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

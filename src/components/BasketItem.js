@@ -14,8 +14,8 @@ const BasketItem = ({ data }) => {
         </div>
         <div className={styles.priceContainer}>
           <small className={styles.singlePrice}>{data.price}</small>
-          <small className={styles.quantityN}>1</small>
-          <small className={styles.totalPrice}>54558 TRY</small>
+          <small className={styles.quantityN}>{data.quantity}</small>
+          <small className={styles.totalPrice}> {`${(data.price * data.quantity).toFixed(2)}`} TRY</small>
         </div>
         <div className={styles.quantity}>
           <button type="button" className={styles.quantityBtn}>

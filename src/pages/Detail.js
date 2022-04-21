@@ -1,3 +1,4 @@
+import AddToBasketBtn from "components/AddToBasketBtn";
 import GetIcon from "components/GetIcon";
 import Title from "components/Title";
 import useMakeRequest from "hooks/useMakeRequest";
@@ -69,9 +70,7 @@ const Detail = () => {
                     <GetIcon icon="BsPlus" size={20} />
                   </button>
                 </div>
-                <button className={styles.addToBasket}>
-                  <GetIcon icon="BsFillCartPlusFill" size={18} /> add to basket
-                </button>
+                <AddToBasketBtn data={result.data} />
               </div>
             </div>
           </div>

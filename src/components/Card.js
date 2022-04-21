@@ -1,13 +1,10 @@
 import styles from "styles/Card.module.scss";
 import { Link } from "react-router-dom";
-import GetIcon from "components/GetIcon";
 import slugify from "slugify";
-import { BasketContext } from "context/BasketContext";
-import { useContext } from "react";
+
+import AddToBasketBtn from "components/AddToBasketBtn";
 
 const Card = ({ product }) => {
-  const { setBasketItems } = useContext(BasketContext);
-
   return (
     <div className={styles.card}>
       <Link to={`/product/${slugify(product.title, { lower: true, strict: true })}-${product.id}`} className={styles.content}>
@@ -22,15 +19,9 @@ const Card = ({ product }) => {
             <div className={styles.price}>
               {product.price} <small>TRY</small>
             </div>
-            <button
-              className={styles.addToBasket}
-              onClick={(e) => {
-                e.preventDefault();
-                setBasketItems((oldState) => [...oldState, product]);
-              }}
-            >
-              <GetIcon icon="BsFillCartPlusFill" size={18} /> add to basket
-            </button>
+            <div className={styles.btn}>
+              <AddToBasketBtn data={product} />
+            </div>
           </div>
         </div>
       </Link>

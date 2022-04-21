@@ -7,7 +7,7 @@ import { BasketContext } from "context/BasketContext";
 import { useContext, useRef } from "react";
 
 const BasketSidebar = () => {
-  const { basketIsOpen, setBasketIsOpen, basketItems } = useContext(BasketContext);
+  const { basketIsOpen, setBasketIsOpen, basketItems, basketTotal: _basketTotal } = useContext(BasketContext);
   const container = useRef();
 
   return (
@@ -39,7 +39,7 @@ const BasketSidebar = () => {
           <div className={styles.totalPrice}>
             <small>total</small>
             <div className={styles.price}>
-              <span>521525 TRY</span>
+              <span>{_basketTotal.toFixed(2)}</span>
             </div>
           </div>
           <button type="button" className={styles.confirmBtn}>

@@ -5,12 +5,15 @@ export const BasketContext = createContext();
 const BasketContextProvider = ({ children }) => {
   const [basketIsOpen, setBasketIsOpen] = useState(false);
   const [basketItems, setBasketItems] = useState([]);
+  const [basketTotal, setBasketTotal] = useState(0);
 
   const values = {
     basketIsOpen,
     setBasketIsOpen,
     basketItems,
     setBasketItems,
+    basketTotal,
+    setBasketTotal,
   };
   return <BasketContext.Provider value={values}>{children}</BasketContext.Provider>;
 };
