@@ -1,7 +1,7 @@
 import styles from "styles/Quantity.module.scss";
 import GetIcon from "components/GetIcon";
 import { BasketContext } from "context/BasketContext";
-import { useContext, useRef, useState, useEffect } from "react";
+import { useContext, useRef, useEffect } from "react";
 
 const Quantity = ({ data }) => {
   const inp = useRef("inp");
@@ -10,7 +10,7 @@ const Quantity = ({ data }) => {
   useEffect(() => {
     inp.current.value = data.quantity || 1;
     setCurrentQuantity(1);
-  }, []);
+  }, [data.quantity]);
 
   const increase = () => {
     let arr = [...basketItems];
@@ -19,8 +19,10 @@ const Quantity = ({ data }) => {
       filtered.quantity++;
       arr[arr.indexOf(filtered)] = filtered;
       setBasketItems(arr);
-      setBasketTotal((oldTotal) => (oldTotal += data.price));
       inp.current.value = filtered.quantity;
+      setBasketTotal((oldState) => {
+        return oldState + filtered.price;
+      });
     } else {
       setCurrentQuantity(parseInt(inp.current.value) + 1);
       inp.current.value = currentQuantity + 1;
@@ -30,11 +32,19 @@ const Quantity = ({ data }) => {
   const decrease = () => {
     let arr = [...basketItems];
     let filtered = basketItems.filter((item) => item.id === data.id)[0];
-    if (filtered.quantity > 1) {
+    if (filtered && filtered.quantity > 1) {
       filtered.quantity--;
       arr[arr.indexOf(filtered)] = filtered;
       setBasketItems(arr);
-      setBasketTotal((oldTotal) => (oldTotal -= data.price));
+      inp.current.value = filtered.quantity;
+      setBasketTotal((oldState) => {
+        return oldState - filtered.price;
+      });
+    } else {
+      if (currentQuantity > 1) {
+        setCurrentQuantity(parseInt(inp.current.value) - 1);
+        inp.current.value = currentQuantity - 1;
+      }
     }
   };
 

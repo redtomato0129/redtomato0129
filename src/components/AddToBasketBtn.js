@@ -7,7 +7,6 @@ const AddToBasketBtn = ({ data: product }) => {
   const { basketItems, setBasketItems, setBasketTotal, currentQuantity } = useContext(BasketContext);
 
   const addToBasket = (product) => {
-    setBasketTotal((oldTotal) => (oldTotal += product.price));
     let arr = [...basketItems];
     let filtered = basketItems.filter((item) => item.id === product.id);
     if (filtered.length > 0) {
@@ -26,6 +25,8 @@ const AddToBasketBtn = ({ data: product }) => {
         },
       ]);
     }
+
+    setBasketTotal((oldTotal) => (oldTotal += product.price * (currentQuantity || 1)));
   };
 
   return (

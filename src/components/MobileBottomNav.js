@@ -15,7 +15,7 @@ const MobileBottomNav = () => {
         {(() => {
           switch (currentComponent) {
             case "categories":
-              return <MobileCategories />;
+              return <MobileCategories setNavIsOpen={setNavIsOpen} />;
             case "basket":
               return <MobileBasket />;
             default:
