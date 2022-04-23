@@ -1,4 +1,5 @@
 import styles from "styles/BasketSidebar.module.scss";
+import emptyCardImg from "images/empty_cart.png";
 import GetIcon from "components/GetIcon";
 import Title from "components/Title";
 import clsx from "clsx";
@@ -20,32 +21,41 @@ const BasketSidebar = () => {
         <div className={styles.header}>
           <div className={styles.title}>
             <Title txt="your basket" size={20} transform="uppercase" />
-            {basketItems.length > 0 ? <small>your basket has got {basketItems.length} items</small> : <small>your basket is empty...</small>}
+            {<small>your basket has got {basketItems.length} items</small>}
           </div>
           <button className={styles.close} onClick={() => setBasketIsOpen(false)}>
             <GetIcon icon="BsX" size={30} />
           </button>
         </div>
-        <div className={styles.items}>
-          {basketItems?.map((item, key) => (
-            <BasketItem data={item} key={key} />
-          ))}
-        </div>
-        <div className={styles.basketTotal}>
-          <div className={styles.total}>
-            <Title txt="basket summary" size={23} transform="uppercase" />
-            <GetIcon icon="BsFillCartCheckFill" size={25} />
-          </div>
-          <div className={styles.totalPrice}>
-            <small>total try</small>
-            <div className={styles.price}>
-              <span>{_basketTotal.toFixed(2)}</span>
+        {basketItems.length > 0 ? (
+          <>
+            <div className={styles.items}>
+              {basketItems?.map((item, key) => (
+                <BasketItem data={item} key={key} />
+              ))}
             </div>
+            <div className={styles.basketTotal}>
+              <div className={styles.total}>
+                <Title txt="basket summary" size={23} transform="uppercase" />
+                <GetIcon icon="BsFillCartCheckFill" size={25} />
+              </div>
+              <div className={styles.totalPrice}>
+                <small>total try</small>
+                <div className={styles.price}>
+                  <span>{_basketTotal.toFixed(2)}</span>
+                </div>
+              </div>
+              <button type="button" className={styles.confirmBtn}>
+                Confirm the basket
+              </button>
+            </div>
+          </>
+        ) : (
+          <div className={styles.emptyBasket}>
+            <img src={emptyCardImg} alt="" />
+            <Title txt="your basket is empty" size={23} transform="uppercase" />
           </div>
-          <button type="button" className={styles.confirmBtn}>
-            Confirm the basket
-          </button>
-        </div>
+        )}
       </div>
     </div>
   );

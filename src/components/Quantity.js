@@ -5,21 +5,26 @@ import { useContext, useRef, useState, useEffect } from "react";
 
 const Quantity = ({ data }) => {
   const inp = useRef("inp");
-  const { basketItems, setBasketItems, setBasketTotal } = useContext(BasketContext);
-  const [inpVal, setInpVal] = useState(1);
+  const { basketItems, setBasketItems, setBasketTotal, currentQuantity, setCurrentQuantity } = useContext(BasketContext);
 
   useEffect(() => {
-    inp.current.value = inpVal;
-  }, [inpVal]);
+    inp.current.value = data.quantity || 1;
+    setCurrentQuantity(1);
+  }, []);
 
   const increase = () => {
     let arr = [...basketItems];
     let filtered = basketItems.filter((item) => item.id === data.id)[0];
-    filtered.quantity++;
-    arr[arr.indexOf(filtered)] = filtered;
-    setBasketItems(arr);
-    setInpVal((oldState) => (oldState += 1));
-    setBasketTotal((oldTotal) => (oldTotal += data.price));
+    if (filtered) {
+      filtered.quantity++;
+      arr[arr.indexOf(filtered)] = filtered;
+      setBasketItems(arr);
+      setBasketTotal((oldTotal) => (oldTotal += data.price));
+      inp.current.value = filtered.quantity;
+    } else {
+      setCurrentQuantity(parseInt(inp.current.value) + 1);
+      inp.current.value = currentQuantity + 1;
+    }
   };
 
   const decrease = () => {
@@ -29,7 +34,6 @@ const Quantity = ({ data }) => {
       filtered.quantity--;
       arr[arr.indexOf(filtered)] = filtered;
       setBasketItems(arr);
-      setInpVal((oldState) => (oldState -= 1));
       setBasketTotal((oldTotal) => (oldTotal -= data.price));
     }
   };

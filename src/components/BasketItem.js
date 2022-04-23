@@ -9,11 +9,12 @@ const BasketItem = ({ data }) => {
   const { basketItems, setBasketItems, setBasketTotal } = useContext(BasketContext);
 
   const removeItemFromBasket = () => {
-    let arr = [...basketItems];
+    let arr = [...basketItems],
+      removed = arr[arr.indexOf(data)].price * arr[arr.indexOf(data)].quantity;
     arr.splice(arr.indexOf(data), 1);
     setBasketItems(arr);
     setBasketTotal((total) => {
-      return total - data.price * data.quantity;
+      return total - removed;
     });
   };
 

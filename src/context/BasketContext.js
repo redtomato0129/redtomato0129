@@ -6,6 +6,7 @@ const BasketContextProvider = ({ children }) => {
   const [basketIsOpen, setBasketIsOpen] = useState(false);
   const [basketItems, setBasketItems] = useState([]);
   const [basketTotal, setBasketTotal] = useState(0);
+  const [currentQuantity, setCurrentQuantity] = useState(1);
 
   const values = {
     basketIsOpen,
@@ -14,6 +15,8 @@ const BasketContextProvider = ({ children }) => {
     setBasketItems,
     basketTotal,
     setBasketTotal,
+    currentQuantity,
+    setCurrentQuantity,
   };
   return <BasketContext.Provider value={values}>{children}</BasketContext.Provider>;
 };

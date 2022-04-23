@@ -4,7 +4,7 @@ import { useContext } from "react";
 import GetIcon from "components/GetIcon";
 
 const AddToBasketBtn = ({ data: product }) => {
-  const { basketItems, setBasketItems, setBasketTotal } = useContext(BasketContext);
+  const { basketItems, setBasketItems, setBasketTotal, currentQuantity } = useContext(BasketContext);
 
   const addToBasket = (product) => {
     setBasketTotal((oldTotal) => (oldTotal += product.price));
@@ -22,7 +22,7 @@ const AddToBasketBtn = ({ data: product }) => {
           title: product.title,
           image: product.image,
           price: product.price,
-          quantity: 1,
+          quantity: currentQuantity,
         },
       ]);
     }
