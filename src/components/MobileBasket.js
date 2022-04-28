@@ -1,5 +1,5 @@
 import styles from "styles/MobileBasket.module.scss";
-import emptyCardImg from "images/empty_cart.png";
+import emptyCardImg from "images/empty_cart.svg";
 import BasketItem from "components/BasketItem";
 import { BasketContext } from "context/BasketContext";
 import { useContext } from "react";

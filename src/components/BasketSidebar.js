@@ -1,5 +1,5 @@
 import styles from "styles/BasketSidebar.module.scss";
-import emptyCardImg from "images/empty_cart.png";
+import emptyCardImg from "images/empty_cart.svg";
 import GetIcon from "components/GetIcon";
 import Title from "components/Title";
 import clsx from "clsx";
