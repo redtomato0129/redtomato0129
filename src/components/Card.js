@@ -17,7 +17,7 @@ const Card = ({ product }) => {
           </div>
           <div className={styles.footer}>
             <div className={styles.price}>
-              {product.price} <small>TRY</small>
+              {product.price.toFixed(2)} <small>TRY</small>
             </div>
             <div className={styles.btn}>
               <AddToBasketBtn data={product} />

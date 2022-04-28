@@ -58,7 +58,7 @@ const Detail = () => {
               </div>
               <div className={styles.price}>
                 <p>
-                  {result.data.price} <small>TRY</small>
+                  {result.data.price.toFixed(2)} <small>TRY</small>
                 </p>
               </div>
               <div className={styles.addToBasketAndQuantity}>
