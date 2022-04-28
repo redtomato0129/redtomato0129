@@ -28,7 +28,7 @@ const BasketItem = ({ data }) => {
           <Title txt={data.title} size={16} transform="capitalize" />
         </div>
         <div className={styles.priceContainer}>
-          <small className={styles.singlePrice}>{data.price}</small>
+          <small className={styles.singlePrice}>{data.price.toFixed(2)}</small>
           <small className={styles.quantityN}>{data.quantity}</small>
           <small className={styles.totalPrice}> {`${(data.price * data.quantity).toFixed(2)}`} TRY</small>
         </div>
