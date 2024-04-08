@@ -1,7 +1,7 @@
 Hi there 👋,
 I'm superman, and excited to have you here. 😊
 
-With over 5 years of hands-on experience in full-stack web development, I'm dedicated to creating seamless and intuitive user experiences through innovative technologies. 💼
+With over 8 years of hands-on experience in full-stack web development, I'm dedicated to creating seamless and intuitive user experiences through innovative technologies. 💼
 
 Here's a glimpse of my skill set:
 
