@@ -6,7 +6,7 @@ With over 8 years of hands-on experience in full-stack web development, I'm dedi
 Here's a glimpse of my skill set:
 
 🔸 Frontend: React.js, Angular.js, Vue.js, Next.js, ReactNative with Redux  
-🔸 Backend: Node.js, Express.js, Python, Django, GraphQL, REST API  
+🔸 Backend: Node.js, Express.js, Python, Django, Laravel GraphQL, REST API  
 🔸 Databases: SQL, NoSQL, MongoDB, PostgreSQL, AWS DynamoDB, CloudFlare D3  
 🔸 Markup & Styling: HTML5, CSS3, Bootstrap, LESS, SASS, Responsive Web Design, PSD/Figma to Responsive HTML  
 🔸 Version Control & Project Management: GitHub, GitLab, BitBucket, etc.  
