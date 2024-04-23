@@ -13,7 +13,7 @@ My goal is to contribute to develop projects that make innovative and efficient 
 🔅 Skillful API combination including GraphQL and RESTful API  
 🔅 Database manipulation, including MongoDB and PostgreSQL  
 🔅 Integration technology with various service including Amazon Service and S3  
-🔅 Familiar with backend technologies, including Node (Express.js) and Ruby on Rails![image](https://github.com/superman030129/superman030129/assets/161733941/cec6e4f1-8bad-4a1b-8fa0-350d71af0aad)  
+🔅 Familiar with backend technologies, including Node (Express.js) and Ruby on Rails
 
 
 When you work with me, you will always get satisfactory results.
