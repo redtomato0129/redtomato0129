@@ -1,7 +1,7 @@
 Hello, I have over 7 years of experience as a software engineer. 
 My goal is to contribute to develop projects that make innovative and efficient software.
 
-♻ Here is my skills:
+♻ Here is my skills:  
 🔅 Familiarity with preprocessors like SASS or LESS can streamline and enhance CSS coding  
 🔅 Responsive web design principles to ensure websites work well on various devices.  
 🔅 Clean and perfect face-to-face production using Tailwind CSS, Material UI, Bootstrap  
