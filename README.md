@@ -1,4 +1,5 @@
-Hello, I have over 7 years of experience as a software engineer. 
+Hello, My name is Christian Cruz.
+I have over 7 years of experience as a software engineer. 
 My goal is to contribute to develop projects that make innovative and efficient software.
 
 ♻ Here is my skills:  
