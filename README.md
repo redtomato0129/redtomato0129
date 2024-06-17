@@ -147,6 +147,4 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 ## 📊 GitHub Stats
 <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=redtomato0129&show_icons=true) -->
 
-## Top Languages
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=redtomato0129&layout=compact)
