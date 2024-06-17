@@ -1,6 +1,17 @@
 # Hi 👋, I'm a Software Engineer focused on AI Development
 
 Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on AI development and real-time communications. Below are some of the areas I specialize in and the technologies I work with.
+<p align="center">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8bf100e68c061350ed91caa7e3988f9ef0c3580ba158e093e3c6f134814069c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f41492d446576656c6f706d656e742d626c7565">
+    <img src="https://camo.githubusercontent.com/8bf100e68c061350ed91caa7e3988f9ef0c3580ba158e093e3c6f134814069c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f41492d446576656c6f706d656e742d626c7565" alt="AI Development" data-canonical-src="https://img.shields.io/badge/AI-Development-blue" style="max-width: 100%;">
+  </a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6d8ee974363fea5fc3903545d7469fcfa874fb7ed3745764270764debe4d39ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46756c6c2d2d537461636b2d446576656c6f7065722d677265656e">
+    <img src="https://camo.githubusercontent.com/6d8ee974363fea5fc3903545d7469fcfa874fb7ed3745764270764debe4d39ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46756c6c2d2d537461636b2d446576656c6f7065722d677265656e" alt="Full-Stack Developer" data-canonical-src="https://img.shields.io/badge/Full--Stack-Developer-green" style="max-width: 100%;">
+  </a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cf5ca9f591b8f8d3773ce62cffb5c14a3eb60677f1417f77b9e0de1068056a4f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5265616c2d2d54696d652d436f6d6d756e69636174696f6e732d79656c6c6f77">
+    <img src="https://camo.githubusercontent.com/cf5ca9f591b8f8d3773ce62cffb5c14a3eb60677f1417f77b9e0de1068056a4f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5265616c2d2d54696d652d436f6d6d756e69636174696f6e732d79656c6c6f77" alt="Real-Time Communications" data-canonical-src="https://img.shields.io/badge/Real--Time-Communications-yellow" style="max-width: 100%;">
+  </a>
+</p>
 
 ## 🚀 My Powers
 
