@@ -171,7 +171,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
   ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 
 
-## 📊 GitHub Stats
+<!-- ## 📊 GitHub Stats -->
 
 <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=redtomato0129&show_icons=true) -->
 
