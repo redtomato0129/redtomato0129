@@ -26,11 +26,22 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 </ul>
 </li>
 <li>
-<p dir="auto"><strong>FreeSWITCH (Django, Next.js, Watson, Whisper, OpenAI, Real-Time, Twilio):</strong></p>
+<p dir="auto"><strong>Real-Time Communications:</strong></p>
 <ul dir="auto">
+<li>Expertise in VoIP (Voice over Internet Protocol) and SIP (Session Initiation Protocol) to enable robust communication systems.</li>
 <li>Successfully completed two real-time communication projects using FreeSWITCH integrated with Django, Watson, Whisper, and OpenAI.</li>
 <li>Built sophisticated systems that optimized communication workflows and enhanced user engagement.</li>
 <li>Utilized Next.js for the frontend and Django for the backend.</li>
+</ul>
+</li>
+<li>
+<p dir="auto"><strong>AI & Machine Learning (Whisper, Watson, OpenAI, TensorFlow, PyTorch):</strong></p>
+<ul dir="auto">
+<li>Experience with AI generation technologies, including tools for generating text, images, and other forms of content.</li>
+<li>Enabled the creation of innovative applications that can produce high-quality, AI-generated content efficiently.</li>
+<li>Core programming language is Python, used extensively for developing AI, ML, and DL solutions.</li>
+<li>Leveraged frameworks like TensorFlow and PyTorch for various applications, from natural language processing to predictive analytics.</li>
+<li>Utilized Watson for NLP, machine learning, and other AI capabilities. Whisper for automated speech recognition.</li>
 </ul>
 </li>
 <li>
@@ -123,6 +134,24 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
   ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
   ![RESTful APIs](https://img.shields.io/badge/REST-02569B?style=flat&logo=rest&logoColor=white)
 
+- ### Real-Time Communications
+
+  ![VoIP](https://img.shields.io/badge/VoIP-000000?style=flat)
+  ![SIP](https://img.shields.io/badge/SIP-000000?style=flat)
+  ![FreeSWITCH](https://img.shields.io/badge/FreeSWITCH-000000?style=flat)
+  ![WebRTC](https://img.shields.io/badge/WebRTC-FF6F00?style=flat&logo=webrtc&logoColor=white)
+
+- ### AI & Machine Learning
+
+  ![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white)
+  ![Watson](https://img.shields.io/badge/Watson-1F70C1?style=flat&logo=ibm&logoColor=white)
+  ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+  ![GPT-4](https://img.shields.io/badge/GPT--4-412991?style=flat&logo=openai&logoColor=white)
+  ![GPT-3](https://img.shields.io/badge/GPT--3-412991?style=flat&logo=openai&logoColor=white)
+  ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat&logo=openai&logoColor=white)
+  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+
 - ### Version Control
 
   ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -136,15 +165,6 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
   ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
   ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 
-- ### AI & Machine Learning
-
-  ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-  ![GPT-4](https://img.shields.io/badge/GPT--4-412991?style=flat&logo=openai&logoColor=white)
-  ![GPT-3](https://img.shields.io/badge/GPT--3-412991?style=flat&logo=openai&logoColor=white)
-  ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat&logo=openai&logoColor=white)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-
 - ### Web Scraping & Data Extraction
 
   ![Web Scraping](https://img.shields.io/badge/Web_Scraping-3776AB?style=flat&logo=python&logoColor=white)
@@ -156,9 +176,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 
 - ### Streaming & Communication
 
-  ![FreeSWITCH](https://img.shields.io/badge/FreeSWITCH-000000?style=flat)
   ![Video Streaming](https://img.shields.io/badge/Video_Streaming-FF6F00?style=flat&logo=youtube&logoColor=white)
-  ![WebRTC](https://img.shields.io/badge/WebRTC-FF6F00?style=flat&logo=webrtc&logoColor=white)
 
 - ### Project Management
 
@@ -170,7 +188,6 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
   ![Code Optimization](https://img.shields.io/badge/Code_Optimization-61DAFB?style=flat)
   ![API Integration](https://img.shields.io/badge/API_Integration-FF6F00?style=flat)
   ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-
 
 <!-- ## 📊 GitHub Stats -->
 ##
@@ -187,3 +204,4 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 <a href="https://github.com/redtomato0129?tab=repositories"><img src="https://github-readme-stats-one-bice.vercel.app/api?username=redtomato0129&theme=gotham&show_icons=true&count_private=true&hide_border=false&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"  width="48%" alt="@redtomato0129's github-readme-stats"/></a>
 <a href="https://github.com/redtomato0129?tab=stars"><img src="https://github-readme-streak-stats.herokuapp.com?user=redtomato0129&theme=gotham&hide_border=false&date_format=M%20j%5B%2C%20Y%5D"  width="48%" alt="@RJ's github-readme-streak-stats"/></a>
 </p>
+
