@@ -117,6 +117,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
   ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
   ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
   ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-092E20?style=flat&logo=django&logoColor=white)
   ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
   ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat&logo=rubyonrails&logoColor=white)
   ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat)
