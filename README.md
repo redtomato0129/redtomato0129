@@ -1,4 +1,4 @@
-# Hi 👋, I'm a Software Engineer focused on AI Development
+# Hi 👋, I'm a Software Engineer focused on Generative AI, VoIP, TradingView, Python, Full-Stack and DevOps.
 
 Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on AI development and real-time communications. Below are some of the areas I specialize in and the technologies I work with.
 
@@ -16,179 +16,17 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 
 ## 🚀 My Powers
 
-<ul dir="auto">
-<li>
-<p dir="auto"><strong>Full-Stack Development (Chatbot Development, Next.js, Supabase, OpenAI, and Other Technologies):</strong></p>
-<ul dir="auto">
-<li>Proficient in both front-end and back-end development, creating robust, scalable web applications.</li>
-<li>Expertise includes developing chatbots using Next.js, Supabase, and OpenAI, as well as other technologies like Firebase, Tailwind CSS, TypeScript, JavaScript, and Node.js.</li>
-<li>Rich experience in building dynamic, responsive user interfaces and powerful backend systems.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>Real-Time Communications:</strong></p>
-<ul dir="auto">
-<li>Expertise in VoIP (Voice over Internet Protocol) and SIP (Session Initiation Protocol) to enable robust communication systems.</li>
-<li>Successfully completed two real-time communication projects using FreeSWITCH integrated with Django, Watson, Whisper, and OpenAI.</li>
-<li>Built sophisticated systems that optimized communication workflows and enhanced user engagement.</li>
-<li>Utilized Next.js for the frontend and Django for the backend.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>AI & Machine Learning (Whisper, Watson, OpenAI, TensorFlow, PyTorch):</strong></p>
-<ul dir="auto">
-<li>Experience with AI generation technologies, including tools for generating text, images, and other forms of content.</li>
-<li>Enabled the creation of innovative applications that can produce high-quality, AI-generated content efficiently.</li>
-<li>Core programming language is Python, used extensively for developing AI, ML, and DL solutions.</li>
-<li>Leveraged frameworks like TensorFlow and PyTorch for various applications, from natural language processing to predictive analytics.</li>
-<li>Utilized Watson for NLP, machine learning, and other AI capabilities. Whisper for automated speech recognition.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>dbt (Data Build Tool):</strong></p>
-<ul dir="auto">
-<li>Participated in several successful dbt projects, utilizing the latest trends and technologies in data transformation and management.</li>
-<li>Work includes integrating dbt with modern data warehouses and cloud platforms to ensure scalable and efficient data solutions.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>Video Streaming Technologies:</strong></p>
-<ul dir="auto">
-<li>Proficiency in video streaming technologies ensures the delivery of high-quality media experiences tailored to specific client requirements.</li>
-<li>Worked on projects requiring seamless video streaming, ensuring optimal performance and user satisfaction.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>AI Generation Technologies:</strong></p>
-<ul dir="auto">
-<li>Experience with AI generation technologies, including tools for generating text, images, and other forms of content.</li>
-<li>Enabled the creation of innovative applications that can produce high-quality, AI-generated content efficiently.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>API Integration (Several Cloud Services and OpenAI):</strong></p>
-<ul dir="auto">
-<li>Expertise extends to API integration, ensuring seamless connectivity and enhanced performance across diverse systems.</li>
-<li>Integrated various APIs from multiple cloud services and OpenAI to improve functionality and streamline processes in projects across different domains.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>Python (AI/ML/DL, Web Scraping, Data Extracting, Django, Flask):</strong></p>
-<ul dir="auto">
-<li>Core programming language is Python, used extensively for developing AI, ML, and DL solutions, as well as web scraping and data extraction technologies.</li>
-<li>Leveraged Python for backend development with frameworks such as Django and Flask, data analysis, and automation tasks.</li>
-<li>Work spans various applications, from natural language processing to predictive analytics, utilizing frameworks like TensorFlow and PyTorch.</li>
-</ul>
-</li>
-<li>
-<p dir="auto"><strong>Amazon Web Services (AWS):</strong></p>
-<ul dir="auto">
-<li>Experience with AWS includes deploying and managing scalable cloud solutions.</li>
-<li>Utilized services such as EC2, S3, Lambda, and RDS to build robust applications.</li>
-<li>Ensured that cloud solutions are both efficient and cost-effective.</li>
-</ul>
-</li>
-</ul>
+☑ Full-Stack Development: Proficient in chatbot development and web applications using Next.js, Supabase, OpenAI, Firebase, Tailwind CSS, TypeScript, JavaScript, and Node.js.
+☑ Python Development: Extensive use of Python for AI/ML/DL, web scraping, data extraction, and backend development with Django and Flask.
+☑ VoIP: Experience with FreeSWITCH, Django, Next.js, Watson, Whisper, OpenAI, and Twilio to build sophisticated communication systems.
+☑ Trading Systems: Development and implementation of sophisticated trading algorithms, specializing in MQL4/MQL5 for MetaTrader, Pine Script for TradingView, web-based trading platforms using Node.js, React, and Next.js, and rigorous backtesting and optimization of trading strategies.
+☑ AI Generation: Proficient in AI technologies for generating text, images, and other content.
+☑ Video Streaming: Expertise in delivering seamless video streaming experiences.
+☑ API Integration: Experienced in integrating APIs from various cloud services and OpenAI.
+☑ AWS Cloud Services: Skilled in deploying and managing cloud solutions using EC2, S3, Lambda, and RDS.
+☑ Database Management: Efficient data storage and retrieval using PostgreSQL, MongoDB, MySQL and Redis and manage Skilled in using DBT for efficient data modeling, testing, and documentation.![Uploading image.png…]()
 
-## 🛠️ My Skills
 
-- ### Frontend
-
-  ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-  ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-  ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
-  ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=flat&logo=material-ui&logoColor=white)
-  ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white)
-
-- ### Backend
-
-  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-  ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-  ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-  ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
-  ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-  ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-092E20?style=flat&logo=django&logoColor=white)
-  ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-  ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat&logo=rubyonrails&logoColor=white)
-  ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat)
-
-- ### Databases
-
-  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-  ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white)
-
-- ### APIs
-
-  ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
-  ![RESTful APIs](https://img.shields.io/badge/REST-02569B?style=flat&logo=rest&logoColor=white)
-
-- ### Real-Time Communications
-
-  ![VoIP](https://img.shields.io/badge/VoIP-000000?style=flat)
-  ![SIP](https://img.shields.io/badge/SIP-000000?style=flat)
-  ![FreeSWITCH](https://img.shields.io/badge/FreeSWITCH-000000?style=flat)
-  ![WebRTC](https://img.shields.io/badge/WebRTC-FF6F00?style=flat&logo=webrtc&logoColor=white)
-
-- ### AI & Machine Learning
-
-  ![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white)
-  ![Watson](https://img.shields.io/badge/Watson-1F70C1?style=flat&logo=ibm&logoColor=white)
-  ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-  ![GPT-4](https://img.shields.io/badge/GPT--4-412991?style=flat&logo=openai&logoColor=white)
-  ![GPT-3](https://img.shields.io/badge/GPT--3-412991?style=flat&logo=openai&logoColor=white)
-  ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat&logo=openai&logoColor=white)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-
-- ### Version Control
-
-  ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-- ### Design & UI
-
-  ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-
-- ### Cloud & DevOps
-
-  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-  ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-
-- ### Web Scraping & Data Extraction
-
-  ![Web Scraping](https://img.shields.io/badge/Web_Scraping-3776AB?style=flat&logo=python&logoColor=white)
-  ![Data Extracting](https://img.shields.io/badge/Data_Extracting-3776AB?style=flat&logo=python&logoColor=white)
-
-- ### Bot Development
-
-  ![Chatbot Development](https://img.shields.io/badge/Chatbot_Development-FF6F00?style=flat&logo=openai&logoColor=white)
-
-- ### Streaming & Communication
-
-  ![Video Streaming](https://img.shields.io/badge/Video_Streaming-FF6F00?style=flat&logo=youtube&logoColor=white)
-
-- ### Project Management
-
-  ![Agile](https://img.shields.io/badge/Agile-61DAFB?style=flat&logo=agile&logoColor=black)
-  ![Scrum](https://img.shields.io/badge/Scrum-FF6F00?style=flat&logo=scrum&logoColor=white)
-
-- ### Miscellaneous
-
-  ![Code Optimization](https://img.shields.io/badge/Code_Optimization-61DAFB?style=flat)
-  ![API Integration](https://img.shields.io/badge/API_Integration-FF6F00?style=flat)
-  ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 
 <!-- ## 📊 GitHub Stats -->
 ##
