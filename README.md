@@ -14,18 +14,20 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
   </a>
 </p>
 
-## 🚀 My Powers
+## 🚀 My Skills
 
-☑ Full-Stack Development: Proficient in chatbot development and web applications using Next.js, Supabase, OpenAI, Firebase, Tailwind CSS, TypeScript, JavaScript, and Node.js.  
-☑ Python Development: Extensive use of Python for AI/ML/DL, web scraping, data extraction, and backend development with Django and Flask.  
-☑ VoIP: Experience with FreeSWITCH, Django, Next.js, Watson, Whisper, OpenAI, and Twilio to build sophisticated communication systems.  
-☑ Trading Systems: Development and implementation of sophisticated trading algorithms, specializing in MQL4/MQL5 for MetaTrader, Pine Script for TradingView, web-based trading platforms using Node.js, React, and Next.js, and rigorous backtesting and optimization of trading strategies.  
-☑ AI Generation: Proficient in AI technologies for generating text, images, and other content.  
-☑ Video Streaming: Expertise in delivering seamless video streaming experiences.  
-☑ API Integration: Experienced in integrating APIs from various cloud services and OpenAI.  
-☑ AWS Cloud Services: Skilled in deploying and managing cloud solutions using EC2, S3, Lambda, and RDS.  
-☑ Database Management: Efficient data storage and retrieval using PostgreSQL, MongoDB, MySQL and Redis and manage Skilled in using DBT for efficient data modeling, testing, and documentation.  
-
+🏆 Generative AI(Vidoe, Image, audio)
+🏆 OpenAI/Claude3.5 sonnet/Chatgpt/Chatbots/Chrome Extension/Automation
+🏆 VoIP/FreeSWITCH/Twilio
+🏆 RAG/LLM/Langchain
+🏆 Deepgram/Whisper/Watson/ElevenLabs
+🏆 DevOps(CI/CD) | Cloud(Amazon/Azure/GCP)
+🏆 React/Next.js/Tailwind CSS/TypeScript/JavaScript
+🏆 Python/Django/Flask/FastAPI | Node/Express.js/Nuxt.js | Golang | Ruby on Rails | PHP/Laravel
+🏆 Supabase/Firebase | MongoDB | MySQL | PostgreSQL
+🏆 RESTful API | GraphQL
+🏆 Web Scraping | Data Scraping
+🏆 Trading Bot | Pine Script
 
 
 <!-- ## 📊 GitHub Stats -->
