@@ -1,4 +1,4 @@
-# Hi 👋, I'm a Software Engineer focused on Generative AI, VoIP, Chatbot, Forex Trading, Python, Full-Stack and DevOps.
+# Hi 👋, I'm a Software Engineer focused on Generative AI, VoIP, Chatbot, Video Streaming, Forex Trading, Python, Full-Stack and DevOps.
 
 Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on AI development and real-time communications. Below are some of the areas I specialize in and the technologies I work with.
 
