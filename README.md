@@ -16,19 +16,19 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 
 ## 🚀 My Skills
 
-🏆 Generative AI(Vidoe, Image, audio)
-🏆 OpenAI/Claude3.5 sonnet/Chatgpt/Chatbots/Chrome Extension/Automation
-🏆 VoIP/FreeSWITCH/Twilio
-🏆 RAG/LLM/Langchain
-🏆 Deepgram/Whisper/Watson/ElevenLabs
-🏆 DevOps(CI/CD) | Cloud(Amazon/Azure/GCP)
-🏆 React/Next.js/Tailwind CSS/TypeScript/JavaScript
-🏆 Python/Django/Flask/FastAPI | Node/Express.js/Nuxt.js | Golang | Ruby on Rails | PHP/Laravel
-🏆 Supabase/Firebase | MongoDB | MySQL | PostgreSQL
-🏆 RESTful API | GraphQL
-🏆 Web Scraping | Data Scraping
-🏆 Trading Bot | Pine Script
-
+🏆 Generative AI(Vidoe, Image, audio)  
+🏆 OpenAI/Claude3.5 sonnet/Chatgpt/Chatbots/Chrome Extension/Automation  
+🏆 VoIP/FreeSWITCH/Twilio  
+🏆 RAG/LLM/Langchain  
+🏆 Deepgram/Whisper/Watson/ElevenLabs  
+🏆 DevOps(CI/CD) | Cloud(Amazon/Azure/GCP)  
+🏆 React/Next.js/Tailwind CSS/TypeScript/JavaScript  
+🏆 Python/Django/Flask/FastAPI | Node/Express.js/Nuxt.js | Golang | Ruby on Rails | PHP/Laravel  
+🏆 Supabase/Firebase | MongoDB | MySQL | PostgreSQL  
+🏆 RESTful API | GraphQL  
+🏆 Web Scraping | Data Scraping  
+🏆 Trading Bot | Pine Script  
+🏆 Video Streaming | WebRTC  
 
 <!-- ## 📊 GitHub Stats -->
 ##
