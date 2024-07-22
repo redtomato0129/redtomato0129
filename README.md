@@ -30,52 +30,8 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 🏆 Trading Bot | Pine Script  
 🏆 Video Streaming | WebRTC  
 
-<tr>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=rust" width="45" height="45" alt="Next.js" />
-      <br>Rust
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=go" width="45" height="45" alt="Next.js" />
-      <br>Golang
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=actix" width="45" height="45" alt="Next.js" />
-      <br>Actix
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=gcp" width="45" height="45" alt="Next.js" />
-      <br>GCP
-    </td>
-    <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="55" height="55" />
-      <br>AWS
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=kafka" width="45" height="45" alt="Next.js" />
-      <br>Kafka
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=cypress" width="45" height="45" alt="Next.js" />
-      <br>Cypress
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=electron" width="45" height="45" alt="electron" />
-      <br>Electron
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=firebase" width="45" height="45" alt="firebase" />
-      <br>Firebase
-    </td>
-    <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=rabbitmq" width="45" height="45" alt="Next.js" />
-      <br>RabbitMQ
-    </td>
-  </tr>
-
 
 ## 🚀 My Stacks
-
 
 <p align="center">
 <table align="center">
