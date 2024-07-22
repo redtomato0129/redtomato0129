@@ -52,7 +52,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>Tailwind CSS
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="Sass" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="Sass" width="45" height="55" />
       <br>Sass
     </td>
     <td align="center" width="90">
@@ -79,7 +79,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 
   <tr>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="45" height="55" />
       <br>JavaScript
     </td>
     <td align="center" width="90">
@@ -87,19 +87,19 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>jQuery
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="45" height="55" />
       <br>TypeScript
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="45" height="55" />
       <br>React
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="45" height="55" />
       <br>Redux
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/gatsby-icon.svg" alt="Gatsby" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/gatsby-icon.svg" alt="Gatsby" width="45" height="55" />
       <br>Gatsby
     </td>
     <td align="center" width="90">
@@ -133,11 +133,11 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>Apollo
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="RESTful API" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="RESTful API" width="45" height="55" />
       <br>RESTful API
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" width="55" height="55" />
+      <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" width="45" height="55" />
       <br>FastAPI
     </td>
     <td align="center" width="90">
@@ -149,11 +149,11 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>Next.js
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="45" height="55" />
       <br>Python
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="45" height="55" />
       <br>Django
     </td>
     <td align="center" width="90">
@@ -179,7 +179,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>GCP
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="45" height="55" />
       <br>AWS
     </td>
     <td align="center" width="90">
@@ -209,7 +209,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>RabbitMQ
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="45" height="55" />
       <br>MySQL
     </td>
     <td align="center" width="90">
@@ -221,7 +221,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>PostgreSQL
     </td>
     <td align="center" width="90">
-      <img src="https://skillicons.dev/icons?i=redis" alt="Redis" width="55" height="55" />
+      <img src="https://skillicons.dev/icons?i=redis" alt="Redis" width="45" height="55" />
       <br>Redis
     </td>
     <td align="center" width="90">
@@ -241,21 +241,21 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <br>Kubernetes
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="45" height="55" />
       <br>Java
     </td>
   </tr>
   <tr>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="C#" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="C#" width="45" height="55" />
       <br>C#
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="45" height="55" />
       <br>C++
     </td>
     <td align="center" width="90">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="45" height="55" />
       <br>GitHub
     </td>
     <td align="center" width="90">
