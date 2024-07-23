@@ -71,10 +71,6 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=solidity" width="43" height="43" alt="Solidity" />
       <br>Solidity
     </td>
-    <td align="center" width="80">
-      <img src="https://skillicons.dev/icons?i=wordpress" width="43" height="43" alt="WordPress" />
-      <br>WordPress
-    </td>
   </tr>
 
   <tr>
@@ -114,12 +110,12 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=nodejs" width="43" height="43" alt="Node.js" />
       <br>Node.js
     </td>
+  </tr>
+  <tr>
     <td align="center" width="80">
       <img src="https://skillicons.dev/icons?i=express" width="43" height="43" alt="Express" />
       <br>Express.js
     </td>
-  </tr>
-  <tr>
     <td align="center" width="80">
       <img src="https://skillicons.dev/icons?i=nestjs" width="43" height="43" alt="Nest" />
       <br>Nest
@@ -152,6 +148,8 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="45" height="55" />
       <br>Python
     </td>
+  </tr>
+  <tr>
     <td align="center" width="80">
       <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="45" height="55" />
       <br>Django
@@ -160,8 +158,6 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=laravel" width="43" height="43" alt="Laravel" />
       <br>Laravel
     </td>
-  </tr>
-  <tr>
     <td align="center" width="80">
       <img src="https://skillicons.dev/icons?i=rust" width="43" height="43" alt="Rust" />
       <br>Rust
@@ -190,6 +186,8 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=kafka" width="43" height="43" alt="Kafka" />
       <br>Kafka
     </td>
+  </tr>
+  <tr>
     <td align="center" width="80">
       <img src="https://skillicons.dev/icons?i=cypress" width="43" height="43" alt="Cypress" />
       <br>Cypress
@@ -202,8 +200,6 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=firebase" width="43" height="43" alt="Firebase" />
       <br>Firebase
     </td>
-  </tr>
-  <tr>
     <td align="center" width="80">
       <img src="https://skillicons.dev/icons?i=rabbitmq" width="43" height="43" alt="RabbitMQ" />
       <br>RabbitMQ
@@ -228,6 +224,8 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=sqlite" width="43" height="43" alt="SQLite" />
       <br>SQLite
     </td>
+  </tr>
+  <tr>
     <td align="center" width="80">
       <img src="https://skillicons.dev/icons?i=flutter" width="43" height="43" alt="Flutter" />
       <br>Flutter
@@ -244,8 +242,6 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="45" height="55" />
       <br>Java
     </td>
-  </tr>
-  <tr>
     <td align="center" width="80">
       <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="C#" width="45" height="55" />
       <br>C#
@@ -266,6 +262,8 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://img.shields.io/badge/VoIP-orange" width="43" height="43" alt="VoIP" />
       <br>VoIP
     </td>
+  </tr>
+  <tr>
     <td align="center" width="80">
       <img src="https://img.shields.io/badge/FreeSWITCH-blue" width="43" height="43" alt="FreeSWITCH" />
       <br>FreeSWITCH
@@ -286,6 +284,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=supabase" width="43" height="43" alt="Supabase" />
       <br>Supabase
     </td>
+    <td colspan="4"></td> <!-- Empty space to maintain row structure -->
   </tr>
 </table>
 </p>
