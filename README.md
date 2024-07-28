@@ -286,11 +286,11 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
     </td>
     <td align="center" width="80">
       <img src="https://github.com/hi-tech-AI/hi-tech-AI/raw/main/nlp-logo.jpg" width="43" height="43" alt="Supabase" />
-      <br>Supabase
+      <br>NLP
     </td>
     <td align="center" width="80">
-      <img src="https://github.com/mlabonne/llm-course" width="43" height="43" alt="Supabase" />
-      <br>Supabase
+      <img src="https://github.com/hi-tech-AI/hi-tech-AI/raw/main/llm-logo.jfif" width="43" height="43" alt="Supabase" />
+      <br>LLM
     </td>
     <td colspan="2"></td> <!-- Empty space to maintain row structure -->
   </tr>
