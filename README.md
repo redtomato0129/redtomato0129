@@ -284,7 +284,15 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
       <img src="https://skillicons.dev/icons?i=supabase" width="43" height="43" alt="Supabase" />
       <br>Supabase
     </td>
-    <td colspan="4"></td> <!-- Empty space to maintain row structure -->
+    <td align="center" width="80">
+      <img src="https://github.com/hi-tech-AI/hi-tech-AI/raw/main/nlp-logo.jpg" width="43" height="43" alt="Supabase" />
+      <br>Supabase
+    </td>
+    <td align="center" width="80">
+      <img src="https://github.com/mlabonne/llm-course" width="43" height="43" alt="Supabase" />
+      <br>Supabase
+    </td>
+    <td colspan="2"></td> <!-- Empty space to maintain row structure -->
   </tr>
 </table>
 </p>
