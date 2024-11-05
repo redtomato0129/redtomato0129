@@ -18,7 +18,7 @@ Welcome to my GitHub profile! I'm a full-stack developer with a strong focus on 
 
 🏆 Generative AI (Video, Image, Audio)  
 🏆 OpenAI/Claude3.5 Sonnet/ChatGPT/Chatbots/Chrome Extension/Automation  
-🏆 VoIP/FreeSWITCH/Twilio  
+🏆 VoIP/FreeSWITCH/Twilio/Asterisk/FreePBX/OpenSIPS  
 🏆 RAG/LLM/Langchain  
 🏆 Deepgram/Whisper/Watson/ElevenLabs  
 🏆 DevOps (CI/CD) | Cloud (Amazon/Azure/GCP)  
